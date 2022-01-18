@@ -1,98 +1,35 @@
 {
     "nodes": [
         {
-            "productType": "ICAP",
             "id": "61dc10a6641e5f0815ea6457",
-            "productName": "Prod 13",
-            "productDescription": "TBD",
-            "divisions": "CI",
-            "requirementId": "ICAP.PRD.96",
-            "lastEditedBy": "Thirukkovalluri, Bharath",
-            "lastEditedDate": "1/10/2022",
-            "packages": "No",
-            "requirementStatus": "In Progress",
-            "files": [],
-            "releaseId": "1725",
-            "sectionId": "61d81cc52773a3222789c6e3",
-            "label": "Product"
+            "name": "Prod 13",
         },
         {
             "id": "61d81cc52773a3222789c6e3",
-            "sectionName": "s3",
-            "sectionDescription": "desc",
-            "lastEditedDate": "01/07/2022",
-            "lastEditedBy": "Shweta Patil",
-            "label": "Section",
-            "productName": "ICAP"
+            "name": "s3",
         },
         {
-            "productName": "ICAP",
             "id": "61dd3c57a09fc552103972c5",
-            "lobName": "LOB 09",
-            "lobDescription": "LOB",
-            "requirementId": "ICAP.LOB.102",
-            "requirementIdSortField": 102,
-            "requirementStatus": "In Progress",
-            "lastEditedDate": "01/11/2022",
-            "lastEditedBy": "Bharath Thirukkovalluri",
-            "files": [],
-            "releaseId": "1725",
-            "sectionId": "61ce99ac2773a3222789c643",
-            "label": "Lob"
+            "name": "LOB 09",
         },
         {
-            "pencilEdit": "Yes",
-            "calculatedField": "Yes",
-            "productName": "ICAP",
             "id": "61e11f78dacc0e6e03fdde28",
-            "dataType": "Int",
-            "requirementStatus": "In Progress",
-            "requirementId": "ICAP.DTD.1276",
-            "requirementIdSortField": 1276,
-            "effectiveDate": "DD1",
-            "expirationDate": "DD1",
-            "fieldName": "DD1",
-            "technicalFieldName": "DD1",
-            "defaultValueOrConditon": "DD1",
-            "isRequired": "False",
-            "isReadonly": "True",
-            "lastEditedBy": "Pushparaj Ghosarwadkar",
-            "lastEditedDate": "01/14/2022",
-            "versionFlag": "Latest",
-            "releaseId": "1725",
-            "sectionId": "61ce99ac2773a3222789c643",
-            "requirementsDescription": "DD1",
-            "label": "Datadictionary"
+            "name": "DD1",
         }
 
     ],
     "links": [
         {
-            "id": "61dc10a665504c0681d0fb03",
-            "label": "AssignedTo",
-            "type": "edge",
-            "inVLabel": "Product",
-            "outVLabel": "Section",
-            "inV": "61dc10a6641e5f0815ea6457",
-            "outV": "61d81cc52773a3222789c6e3"
+            "source": "61dc10a6641e5f0815ea6457",
+            "target": "61d81cc52773a3222789c6e3"
         },
         {
-            "id": "61e0dcb365504c0681d0ff1c",
-            "label": "LinkedTo",
-            "type": "edge",
-            "inVLabel": "Product",
-            "outVLabel": "Lob",
-            "inV": "61dc10a6641e5f0815ea6457",
-            "outV": "61dd3c57a09fc552103972c5"
+            "source": "61dc10a6641e5f0815ea6457",
+            "target": "61dd3c57a09fc552103972c5"
         },
         {
-            "id": "61e1208a65504c0681d0ff38",
-            "label": "LinkedTo",
-            "type": "edge",
-            "inVLabel": "Product",
-            "outVLabel": "Datadictionary",
-            "inV": "61dc10a6641e5f0815ea6457",
-            "outV": "61e11f78dacc0e6e03fdde28"
+            "source": "61dc10a6641e5f0815ea6457",
+            "target": "61e11f78dacc0e6e03fdde28"
         }
     ]
 }
