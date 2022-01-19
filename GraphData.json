@@ -1,22 +1,5 @@
 {
-    "nodes": [
-        {
-            "id": "61dc10a6641e5f0815ea6457",
-            "name": "Prod 13"
-        },
-        {
-            "id": "61d81cc52773a3222789c6e3",
-            "name": "s3"
-        },
-        {
-            "id": "61dd3c57a09fc552103972c5",
-            "name": "LOB 09"
-        },
-        {
-            "id": "61e11f78dacc0e6e03fdde28",
-            "name": "DD1"
-        }
-    ],
+ "nodes" : [],
     "links": [
         {
             "source": "61dc10a6641e5f0815ea6457",
